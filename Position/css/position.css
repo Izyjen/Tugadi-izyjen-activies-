@@ -1,0 +1,58 @@
+.static {
+    position: static;
+    top: 60px;
+    background-color:blue;
+    color: rgb(50, 181, 233);
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #ee0202;
+}
+
+
+.relative {
+    position: relative; 
+    left: 50px;
+    top: 80px;
+    background-color: rgb(26, 74, 207);
+    color: rgb(157, 135, 235);
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #f80909e3;
+}
+
+.absolute {
+    position: absolute; 
+    top: 100%;
+    left: 10%;
+    width: auto;
+    height: auto;
+    background-color: rgb(26, 74, 207);
+    color: skyblue;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #67c6e3;
+}
+
+.fixed {
+    position: fixed; 
+    top: 0;
+    left: 1;
+    background-color: rgb(204, 207, 26);
+    color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 300px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    background-color:darkorange;
+    color: skyblue;
+    border: 5px solid #67c6e3;
+    padding: 10px;
+}
+
